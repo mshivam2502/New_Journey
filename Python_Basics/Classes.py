@@ -8,10 +8,10 @@ class Dog(Animal):
     def bark(self):
         print("Woof!")
 
+if __name__ == "__main__":
+    roger = Dog("Roger")
 
-roger = Dog("Roger")
+    roger.bark()
 
-roger.bark()
-
-print(roger.name)
-roger.walk()
+    print(roger.name)
+    roger.walk()
